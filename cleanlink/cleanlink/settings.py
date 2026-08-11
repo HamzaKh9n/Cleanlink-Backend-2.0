@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-ape=b7_1_f&rn2afwmkcw=(b(9k9y&!6m^*to@j-cps4_-prk4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'cleanlink-backend-2-0.onrender.com',
+    'localhost',
+    '127.0.0.1'
+]
 
 
 # Application definition
